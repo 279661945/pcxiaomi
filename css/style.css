@@ -1,0 +1,160 @@
+.zhengti{
+	max-width: 640;
+	height: 100vh;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+/* 头部开始 */
+.toubu{
+	width: 100%;
+	height: 2.12rem;
+	padding:0 0.4rem;
+	box-sizing: border-box;
+	background: #f2f2f2;
+	position: fixed;           //固定头部
+	top: 0;
+	left: 0;
+}
+.toubu-top{
+	width: 100%;
+	height: 1.19rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.toubu-bottom{
+	width: 100%;
+	height: 0.93rem;
+	display: flex;
+	justify-content: space-between;
+}
+.toubu-logo{
+	width: 0.73rem;
+	height: 0.45rem;
+}
+.toubu-logo img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.toubu-middle{
+	width: 7.80rem;
+	height: 0.95rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	box-shadow:0 0 0.05rem raga(0,0,0,0.1);
+	font-size: 0.38rem;
+	color:#ababab;
+	line-height: 0.93rem;
+	padding-left: 0.27rem;
+	box-sizing: border-box;
+}
+.toubu-middle i{
+	margin-right:0.29rem;
+}
+.toubu-right{
+	width: 0.45rem;
+	height:0.45rem;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAkFBMVEUAAABiYmJoaGhxcXFwcHBwcHBycnJwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBzc3NycnJwcHB2dnZwcHBwcHBxcXFwcHBwcHBwcHBwcHBwcHBwcHBwcHBvb29wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBvb29wcHBwcHBwcHBwcHBnZ2dwcHC6NtRcAAAAMHRSTlMAAwoXHycsRXWfxdzz+jB+vv8ljv/+72HU682aahOXTQ+wNblUtazlb1elWuE7B4ObTEwxAAADdklEQVR4AZWWh5rqOgyEnd7LEA2k0Os24P3f7vLdBVOSTTizBbfflmVZWHXJUBeZlu24rmNbpm56U5bnB2EUJ0kchYHvWep9pVke40FxnqX9hLZ4VEQQgEk8vihOCAiiYnTpHGKNSQmAVd1MvdRxUm/a1BUBlJNLZz87mycAo2axNHTjctFEBJL5rI82lL0SYjxfX+sX/ZbW8zEoK1sZPexGiHL7cDa6uC1B2XTQ2uaVEDv3idS8uwNl9bflhRB7q7vbUNYelOKvhRck8g5W0znIhTI6+2rwsO5zyfpA1N2zfwg5Ub2akPLR6a0I2Jn9J2nugKjLZ5/s3FDLLfxUba0guTUYgLlg1e6wIkg2HPqZIJq1DRpj3Gu1HlbpYbrVT6QcDcOjWpKPFlxAclMNyswFRQv+ElmpN7QS+WrBe5H9kNV6XP/Kre5HuL3yHLIx1LB2gnkLzii1peuW9RwES10KhVkL/o5x8G6tXlnq8kXTn91vCjHU8Ufi75Zv3AMwvbUWIuFSGbebWIlsr+UpcXBVSyHk6zbjBGRxO3UnB+PrPT99CULVVkZU66txy42Q+/X/w7c1KGdtBJh1wE6lM5Sh0lKIn+Dbm+5iEF+3O1wIK0d1aA6Oj7ddpzkAxuMEv9le/bprTDSdsZNWxEanCescERAgCSeXputuwCrtjsMMRHEZdI2p1N/XUdhMLB1lBYjsrzSxAZk9BOPSSUfGfTaflFyb1kqtEZhkevjvqNv/U5YQUU9qXlQgG/s+n6GH2gGIaqF6tD2ACL/NVg74DEEctqpXXg0i3kxe5lzFIGpPDcgJElA4ffouiYVIAkcN6vRdM0HsKkP7MUHC8PvUz11d3JDE8Q57QrL47Rt4DB2bmMRudoetXMi4OQ4+h2b+Dwis7Ke7vieIH3/Zz7orgizPs5eT8ksS3Lt97LEE8XN+fa9dKs75AKI89rCREJujemavVS8HJTr+FdpuKUQwa6FX3ArAru8znXtQmH8/aMwClFX3gDOI5tT3oDk1IM6dG44fEknPjY+7nLbDLXuqvscUsGs3b2NtUR+dgfG2tcRe9PusD7ZLyKplzw94VidjSKoAfvTurrAPRLZ6Q3YE+C8WBoLQHjmjATkjO4QEL8EVgUn1lhKidJXxAC9A4k2RWDzBn5LwPSVkIp9Pm16m7j8ovWaF/wCc31NtcLeHeAAAAABJRU5ErkJggg==")no-repeat center center/100% auto;  //不重复 位置 宽度 高度
+}
+.toubu-right img{
+	width: 100%;
+	height: 100%;
+}
+.toubu-bottom .zuo{
+	width:9.17rem;
+	height: 100%;
+	overflow: auto;
+}
+.toubu-bottom .zuo::-webkit-scrollbar{    //去掉下划线
+	width: 0;
+	height: 0;
+}
+.toubu-bottom .zuo>ul>li:first-child{
+	color: #ff6700;
+	border-bottom: 0.08rem solid #FF6700;
+}
+.toubu-bottom .you{
+	width:1.23rem;
+	height: 100%;
+	text-align:right;
+	line-height: 0.93rem;
+	color:#bdbdbd;
+	font-size: 0.7rem;
+}
+.toubu-bottom .zuo>ul{
+	width: 200%;
+	height: 100%;
+	font-size: 0.38rem;
+	display: flex;
+}
+.toubu-bottom .zuo>ul>li{
+	margin-right: 0.78rem;
+	line-height: 0.93rem;
+}
+/* 头部结束 */
+/* 轮播图开始 */
+main{
+	padding-top: 2.12rem;
+	padding-bottom: 1.58rem;
+}
+.tupian-box{
+	width: 100%;
+	height: 5.42rem;
+	overflow: hidden;
+	position: relative;
+}
+.tupian-box>ul{
+	width: 300%;
+	height: 100%;
+	background: #FF6700;
+	display: flex;
+}
+.tupian-box>ul>li{
+	width: 33.3333%;
+	height: 100%;
+}
+.tupian-box>ul>li img{
+	width: 100%;
+	height: 100%;
+}
+.tupian-box .yuandian{
+	width:100%;
+	height: 0.25rem;
+	background: red;
+	display: flex;
+	position: absolute;
+	bottom: 0.25rem;
+	left:0;
+	justify-content: center;
+	align-items: center;
+}
+.tupian-box .yuandian .a{
+	width: 0.25rem;
+	height: 0.25rem;
+	background: rgba(255,255,255,0.5);
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: 0 0.20rem;
+}
+.tupian-box .yuandian .active{        //选中状态
+	background: #FFFFFF;
+}
+.tupian-box .yuandian .a:first-child{
+	margin-left: 0;
+	background: #FFFFFF;
+}
+/* 轮播图结束 */
+/* 底部开始 */
+.dibu{
+	max-width: 640px;
+	width: 100%;
+	height: 1.58rem;
+	background: #FF6700;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+}
+/* 底部结束 */
