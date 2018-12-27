@@ -1,0 +1,10 @@
+.TB{
+	width: 100%;
+	height: 2.34rem;
+	background: url(../img/bg.63c8e19851.png)#FF6700;
+}
+.TB .head{
+	width: 100%;
+	height: 1.5rem;
+	background: blue;
+}

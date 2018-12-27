@@ -6,6 +6,7 @@
 }
 /* 头部开始 */
 .toubu{
+	z-index: 2222;
 	width: 100%;
 	height: 2.12rem;
 	padding:0 0.4rem;
@@ -121,7 +122,6 @@ main{
 .tupian-box .yuandian{
 	width:100%;
 	height: 0.25rem;
-	background: red;
 	display: flex;
 	position: absolute;
 	bottom: 0.25rem;
@@ -138,23 +138,211 @@ main{
 	border-radius: 50%;
 	margin: 0 0.20rem;
 }
-.tupian-box .yuandian .active{        //选中状态
-	background: #FFFFFF;
-}
 .tupian-box .yuandian .a:first-child{
 	margin-left: 0;
-	background: #FFFFFF;
+}
+.tupian-box .yuandian .a .active{        //选中状态
+	background: #FFF;
 }
 /* 轮播图结束 */
+/* 菜单开始 */
+.caidan{
+	width: 100%;
+	height: 4.53rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0.23rem;
+}
+.caidan>div{
+	width: 20%;
+	height: 50%;
+}
+.caidan>div img{
+	width: 100%;
+	height: 100%;
+}
+/* 菜单结束 */
+/* 首选开始 */
+.shouxuan{
+	width: 100%;
+	height: 7.63rem;
+	display: flex;
+	justify-content: space-between;
+}
+.shouxuan .shouxuan-zuo{
+	width: 49.5%;
+	height: 100%;
+}
+.shouxuan .shouxuan-zuo img{
+	width: 100%;
+	height: 100%;
+}
+.shouxuan .shouxuan-you{
+	width: 49.5%;
+	height: 100%;
+}
+.shouxuan-you>div{
+	width: 100%;
+	height: 3.79rem;
+	display: flex;
+}
+.shouxuan-you .top img{
+	width: 100%;
+	height: 100%;
+}
+.shouxuan-you .bottom img{
+	width: 100%;
+	height: 100%;
+	margin-top: 0.04rem;
+}
+/* 首选结束 */
+/* 广告开始 */
+.guanggao1{
+	width: 100%;
+	height: 4.21rem;
+	background: #FFFF00;
+	margin-bottom: 0.25rem;
+}
+.guanggao1 img{
+	width: 100%;
+	height: 100%;
+}
+/* 广告结束 */
+.tuijian{
+	width:100%;
+	height: 6.67rem;
+	background: #FF6700;
+}
+.tuijian img{
+	width: 100%;
+	height: 100%;
+}
+/* 商品列表开始 */
+.splb{
+	width: 100%;
+	height: 7.63rem;
+	display: flex;
+	justify-content: space-between;
+}
+.splb-left{
+	width: 49.5%;
+	height: 7.63rem;
+}
+.splb-right{
+	width: 49.5%;
+	height: 7.63rem;
+}
+.splb .splb-left .top{
+	width: 100%;
+	height: 5.5rem;
+}
+.splb .splb-left .top img{
+	width: 100%;
+	height: 100%;
+}
+.splb .splb-left .text-box{
+	width: 100%;
+	height: 2.28rem;
+	display: flex;
+	flex-direction: column;
+	/* margin: 0.29rem 0.42rem; */
+	box-sizing: border-box;
+
+}
+.splb .splb-left .text-box>span:first-child{
+	font-size: 0.41rem;
+	/* width: 100%; */
+	margin:0.29rem 0 0 0.29rem;
+}
+.splb .splb-left .text-box>span:nth-child(2){
+	font-size: 0.34rem;
+	margin-left: 0.29rem;
+}
+.splb .splb-left .text-box>span:nth-child(3){
+	font-size: 0.34rem;
+	color: #ff6700;
+	margin-left: 0.29rem;
+}
+.splb .splb-left .text-box>span .c{
+	font-size: 0.22rem;
+	color: #ff6700;
+}
+.splb .splb-left .text-box>span .d{
+	font-size: 0.30rem;
+	color: #ff6700;
+}
+.splb .splb-right .bottom{
+	width: 100%;
+	height: 5.5rem;
+	background: blue;
+}
+.splb .splb-right .bottom img{
+	width: 100%;
+	height: 100%;
+}
+.splb .splb-right .text-box{
+	width: 100%;
+	height: 2.28rem;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	
+}
+.splb .splb-right .text-box>span:first-child{
+	font-size: 0.41rem;
+	/* width: 100%; */
+	margin:0.29rem 0 0 0.29rem;
+}
+.splb .splb-right .text-box>span:nth-child(2){
+	font-size: 0.34rem;
+	margin-left: 0.29rem;
+}
+.splb .splb-right .text-box>span:nth-child(3){
+	font-size: 0.34rem;
+	color: #ff6700;
+	margin-left: 0.29rem;
+}
+.splb .splb-right .text-box>span .c{
+	font-size: 0.22rem;
+	color: #ff6700;
+}
+.splb .splb-right .text-box>span .d{
+	font-size: 0.30rem;
+	color: #ff6700;
+}
+/* 商品列表结束 */
 /* 底部开始 */
 .dibu{
 	max-width: 640px;
 	width: 100%;
 	height: 1.58rem;
-	background: #FF6700;
+	background: #FFFFFF;
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 0;
+	display: flex;
+	box-shadow:0 0.03 0 0.02rem black;
+}
+.dibu .b{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dibu>div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dibu .b img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.dibu .b i{
+	font-size: 0.33rem;
+	margin-top: 0.05rem;
 }
 /* 底部结束 */

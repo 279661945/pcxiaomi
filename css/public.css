@@ -1,0 +1,35 @@
+/* 底部开始 */
+.dibu{
+	max-width: 640px;
+	width: 100%;
+	height: 1.58rem;
+	background: #FFFFFF;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	display: flex;
+	box-shadow:0 0.03 0 0.02rem black;
+}
+.dibu .b{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dibu>div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dibu .b img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.dibu .b i{
+	font-size: 0.33rem;
+	margin-top: 0.05rem;
+}
+/* 底部结束 */
