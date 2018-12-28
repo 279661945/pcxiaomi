@@ -67,7 +67,7 @@
 	height: 100%;
 	overflow: auto;
 }
-.toubu-bottom .zuo::-webkit-scrollbar{    //去掉下划线
+.toubu-bottom .zuo::-webkit-scrollbar{    //去掉滚动条
 	width: 0;
 	height: 0;
 }
@@ -274,7 +274,7 @@ main{
 .splb .splb-right .bottom{
 	width: 100%;
 	height: 5.5rem;
-	background: blue;
+	/* background: blue; */
 }
 .splb .splb-right .bottom img{
 	width: 100%;

@@ -42,8 +42,12 @@
 	overflow: auto;
 	border-right: 1px solid rgba(255,255,255,0.5);
 }
-.middle .ce::--webkit-scrollbar{
+.middle .ce::-webkit-scrollbar{
 	width: 0;
+}
+.middle .ce>div.active{
+	color: #FF6700;
+	font-size: 0.48rem;
 }
 .middle .ce>div{
 	width: 100%;
@@ -52,10 +56,70 @@
 	line-height: 1.89rem;
 	font-size: 0.38rem;
 	margin-top: 0.61rem;
-	
 }
 .middle .liebiao{
-	width: calc(640 - 2.25rem);
+	width:100%;
 	height: 100%;
+	/* background: #FFFF00; */
+	margin-left: 2.15rem;
+	box-sizing: border-box;
+	padding: 0 0.49rem;
+	overflow: auto;
+}
+.middle .liebiao::-webkit-scrollbar{
+	width: 0;
+}
+.liebiao-box{
+	width: 100%;
+	height:3rem;
+	background: #FF6700;
+}
+.liebiao-box img{
+	width: 100%;
+	height: 100%;
+}
+.liebiao-box .wz-box{
+	width:100%;
+	height: 7.5rem;
+	box-sizing: border-box;
+}
+.liebiao-box .wz{
+	width: 100%;
+	height: 1.73rem;
+	font-size: 0.41rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.liebiao-box .wz .line{
+	width:0.68rem;
+	height: 2px;
+	background: #dfdfdf;
+}
+.liebiao-box .wz span{
+	margin: 0 0.31rem;
+	font-size: 0.4rem;
+	color: #515151;
+}
+.wz-box .goods{
+	width: 100%;
+	height: calc(100% - 1.73rem);
+	display: flex;
+	flex-wrap: wrap;
+}
+.wz-box .goods .tpa{
+	width: 33.33%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.wz-box .goods .tpa img{
+	width: 1.42rem;
+	height: 1.42rem;
+}
+.wz-box .goods .tpa span{
+	font-size: 0.33rem;
 }
 /* middle结束 */
