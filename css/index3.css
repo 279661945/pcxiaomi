@@ -1,0 +1,352 @@
+.big-box{
+	max-width: 640px;
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+}
+/* 状态栏开始 */
+.header{
+	z-index: 1111;
+	max-width:640;
+	width: 100%;
+	height:1.54rem ;
+	background: #f2f2f2;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #919191;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+}
+.header span{
+	font-size: 0.48rem;
+}
+.header i{
+	height: 0.56rem;
+}
+.header i,.header a{
+	font-size: 0.56rem;
+	color: #979797;
+}
+.bbb-box::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+/* 状态栏结束 */
+.qdl-box{
+	width: 100%;
+	height: 1.52rem;
+	margin-top: 1.5rem;
+	font-size: 0.45rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #252525;
+}
+.qdl-box>span:first-child{
+	margin-left: 0.5rem;
+}
+.qdl-box .right{
+	margin-right: 0.5rem;
+	color: #b6b6b6;
+}
+.gwsp-box{
+	width: 100%;
+	height: 8.9rem;
+}
+.gwsp-box .top{
+	width: 100%;
+	height: 6.98rem;
+}
+.gwsp-box .top .hbc{
+	width: 100%;
+	height: 3.44rem;
+	border-bottom: 1px solid #f6f6f6;
+	display: flex;
+}
+.gwsp-box .top .hbc .left{
+	width: 3.6rem;
+	height: 3.44rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.gwsp-box .top .hbc .left .right{
+	width: 2.65rem;
+	height: 2.65rem;
+	border: 1px solid #eee;
+}
+.gwsp-box .top .hbc .left>i{
+	color: #ff5d1e;
+}
+.gwsp-box .top .hbc .left .right img{
+	width: 100%;
+	height: 100%;
+}
+.gwsp-box .top .hbc .right{
+	width: calc(100% - 3.6rem);
+	height: 3.44rem;
+	font-size: 0.45rem;
+	box-sizing: border-box;
+}
+.gwsp-box .top .hbc .right .top{
+	margin: 0.68rem 0 0 0.3rem;
+	box-sizing: border-box;
+}
+.gwsp-box .top .hbc .right .top .zj{
+	width: 6.4rem;
+	height: 0.98rem;
+	box-sizing: border-box;
+	display: flex;
+}
+.gwsp-box .top .hbc .right .zj .left{
+	width: 2.75rem;
+	height: 0.98rem;
+	border: 1px solid #919191;
+	box-sizing: border-box;
+}
+.gwsp-box .top .hbc .right .zj .left .jian{
+	width: 0.9rem;
+	height: 0.97rem;
+	background:#fafafa;
+	text-align: center;
+	line-height: 0.98rem;
+	box-sizing: border-box;
+}
+.gwsp-box .top .hbc .right .zj .left .sz{
+	width: calc(2.75rem - 0.9rem - 0.9rem);
+	text-align: center;
+	line-height: 0.98rem;
+}
+.gwsp-box .top .hbc .right .zj .left .jia{
+	width: 0.9rem;
+	height: 0.97rem;
+	background: #f4f4f4;
+	text-align: center;
+	line-height: 0.98rem;
+	box-sizing: border-box;
+}
+.gwsp-box .top .hbc .right .zj .right{
+	width: 0.31rem;
+	height: 0.31rem;
+	margin-left:3rem ;
+	line-height: 0.98rem;
+}
+
+.gwsp-box .top .mk{
+	width: 100%;
+	height: calc(6.98rem - 3.45rem);
+	border-bottom: 1px solid #f6f6f6;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+}
+.gwsp-box .top .mk .left .left-box{
+	width: 2.7rem;
+	height: 2.7rem;
+	margin: 0.38rem 0 0 0.9rem;
+}
+.gwsp-box .top .mk .left .left-box img{
+	width: 100%;
+	height: 100%;
+}
+.gwsp-box .top .mk .right{
+	margin-left: 0.3rem;
+}
+.gwsp-box .top .mk .right .right-top{
+	width: 6.88rem;
+	height: 0.62rem;
+	font-size: 0.36rem;
+	margin-top: 0.9rem;
+}
+.gwsp-box .top .mk .right .right-top>span:first-child{
+	width: 0.9rem;
+	height: 0.62rem;
+	background: #5c77d2;
+}
+.gwsp-box .top .mk .right .right-bottom{
+	width: 2.78rem;
+	height: 0.97rem;
+	font-size: 0.42rem;
+	display: flex;
+}
+.gwsp-box .top .mk .right .right-bottom .jian{
+	width: 0.9rem;
+	height: 0.97rem;
+	background:#fafafa;
+	text-align: center;
+	line-height: 0.98rem;
+	box-sizing: border-box;
+}
+.gwsp-box .top .mk .right .right-bottom .sz{
+	width: calc(2.75rem - 0.9rem - 0.9rem);
+	text-align: center;
+	line-height: 0.98rem;
+}
+.gwsp-box .top .mk .right .right-bottom .jia{
+	width: 0.9rem;
+	height: 0.97rem;
+	background: #f4f4f4;
+	text-align: center;
+	line-height: 0.98rem;
+	box-sizing: border-box;
+}
+.gwsp-box .bottom{
+	width: 100%;
+	height: calc(100% - 6.98rem);
+	line-height: 0.5rem;
+}
+.gwsp-box .bottom .bottom-top{
+	width: 100%;
+	height: 0.99rem;
+	border-bottom:1px solid #979797 ;
+}
+.gwsp-box .bottom .bottom-top>span{
+	margin-left: 0.3rem;
+}
+.gwsp-box .bottom .bottom-bottom{
+	width: 100%;
+	height: 0.;
+	margin-left: 0.3rem;
+}
+.gg img{
+	width: 100%;
+	height: 100%;
+}
+.splb{
+	width: 100%;
+	height: 7.63rem;
+	display: flex;
+	justify-content: space-between;
+}
+.splb-left{
+	width: 49.5%;
+	height: 7.63rem;
+}
+.splb-right{
+	width: 49.5%;
+	height: 7.63rem;
+}
+.splb .splb-left .top{
+	width: 100%;
+	height: 5.5rem;
+}
+.splb .splb-left .top img{
+	width: 100%;
+	height: 100%;
+}
+.splb .splb-left .text-box{
+	width: 100%;
+	height: 2.28rem;
+	display: flex;
+	flex-direction: column;
+	/* margin: 0.29rem 0.42rem; */
+	box-sizing: border-box;
+
+}
+.splb .splb-left .text-box>span:first-child{
+	font-size: 0.41rem;
+	/* width: 100%; */
+	margin:0.29rem 0 0 0.29rem;
+}
+.splb .splb-left .text-box>span:nth-child(2){
+	font-size: 0.34rem;
+	margin-left: 0.29rem;
+}
+.splb .splb-left .text-box>span:nth-child(3){
+	font-size: 0.34rem;
+	color: #ff6700;
+	margin-left: 0.29rem;
+}
+.splb .splb-left .text-box>span .c{
+	font-size: 0.22rem;
+	color: #ff6700;
+}
+.splb .splb-left .text-box>span .d{
+	font-size: 0.30rem;
+	color: #ff6700;
+}
+.splb .splb-right .bottom{
+	width: 100%;
+	height: 5.5rem;
+	/* background: blue; */
+}
+.splb .splb-right .bottom img{
+	width: 100%;
+	height: 100%;
+}
+.splb .splb-right .text-box{
+	width: 100%;
+	height: 2.28rem;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	
+}
+.splb .splb-right .text-box>span:first-child{
+	font-size: 0.41rem;
+	/* width: 100%; */
+	margin:0.29rem 0 0 0.29rem;
+}
+.splb .splb-right .text-box>span:nth-child(2){
+	font-size: 0.34rem;
+	margin-left: 0.29rem;
+}
+.splb .splb-right .text-box>span:nth-child(3){
+	font-size: 0.34rem;
+	color: #ff6700;
+	margin-left: 0.29rem;
+}
+.splb .splb-right .text-box>span .c{
+	font-size: 0.22rem;
+	color: #ff6700;
+}
+.splb .splb-right .text-box>span .d{
+	font-size: 0.30rem;
+	color: #ff6700;
+}
+.dibu{
+	width:100%;
+	height: 1.5rem;
+	background: red;
+}
+.dibu .dibu1{
+	width: 33.33%;
+	height: 100%;
+	background: #fff;
+	text-align: center;
+	color: #ff6700;
+}
+.dibu .dibu2{
+	width: 33.33%;
+	height: 100%;
+	background: #f4f4f4;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.dibu .dibu3{
+	width: 33.33%;
+	height: 100%;
+	background: #ff6700;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1.5rem;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

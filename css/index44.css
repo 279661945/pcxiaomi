@@ -1,86 +1,183 @@
-.dingdan{
-	max-width: 640;
+/* 头部开始 */
+.head{
 	width: 100%;
-}
-.T{
-	width: 100%;
-	height: 1.42rem;
-	background: #f2f2f2;
+	height: 1.53rem;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	background: #F5F1F0;
 	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
 }
-.T .iconfont{
-line-height: 1.42rem;
-font-size: 0.59rem;
-margin: 0 0.51rem;
-color: #8a8a8a;
+.head div{
+	font-size: 0.64rem;
+	margin: 0 0.48rem;
+	color: rgba(0,0,0,0.3);
 }
-.T span{
-	font-size: 0.44rem;
-	line-height: 1.42rem;
-	color: 838383;
+.head .text{
+	width: 7.95rem;
+	height: 0.76rem;
+	border-radius: 10%;
 }
-.daohanglan{
+.head .text .dw{
+	height: 0.64rem;
+	font-size: 0.6rem;
+	color: #717171;
+	text-align: center;
+	line-height: 0.64rem;
+}
+/* 头部结束 */
+/* 付款开始 */
+.wenzi{
 	width: 100%;
-	height: 0.95rem;
-	background: #fff;
+	height: 1.04rem;
+	padding-top: 1.53rem;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
-.daohanglan span:nth-child(2){
-	margin: 0 2.47rem;
-	color: #ff6700;
-	border-bottom: 2px solid #ff6700;
+.wenzi div{
+	width: 33.333%;
+	height: 100%;
+	font-size: 0.4rem;
+	line-height: 1.04rem;
+	text-align: center;
+	color: #bbbbbb;
+	align-self: center;
+	margin: 0 0.5rem;
 }
-.daohanglan span{
-	font-size: 0.35rem;
+.wenzi .active{
+	width: 1.54rem;
+	height: 100%;
+	color: #d07a41;
+	border-bottom:0.03rem solid #eb6a16;
+	box-sizing: border-box;
 }
-.huikuai{
+/* 付款结束 */
+/* 灰色 */
+.huise{
 	width: 100%;
-	height: 0.25rem;
-	background: #ececec;
+	height: 0.3rem;
+	background: #F5F1F0;
 }
-.L{
+/* 灰色 */
+/* 等待付款开始 */
+.big-box{
 	width: 100%;
-	height: 6.56rem;
-	background: #0000FF;
+	height: 6.03rem;
 }
-.L>div{
-}
-.L .L-top{
+.big-box .box1{
 	width: 100%;
-	height: 1.77rem;
-	background: #FFFF00;
+	height: 1.8rem;
+	padding: 0 0.48rem;
+	border-bottom: 0.04rem solid #ededed;
+	box-sizing: border-box;
+}
+.big-box .box1 .data{
+	width: 9.83rem;
+	height: 0.48rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.46rem;
+}
+.big-box .box1 .data .t-1{
+	height: 100%;
+	font-size: 0.48rem;
+	color: #4f4f4f;
+	line-height: 0.48rem;
+}
+.big-box .box1 .data .t-2{
+	height: 100%;
+	font-size: 0.48rem;
+	color: #c46c44;
+	line-height: 0.48rem;
+}
+.big-box .box1 .bianhao{
+	height: 0.61rem;
+	font-size: 0.32rem;
+	color: #999999;
+	line-height: 0.61rem;
+}
+.big-box .box2{
+	width: 100%;
+	height: 4.23rem;
+	padding: 0 0.48rem;
+	border-bottom: 0.02rem solid #ededed;
+	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 }
-.L .L-middle{
-	width: 100%;
-	height: 4.24rem;
-	background: #FFFF00;
+.big-box .box2 .tu1{
+	width: 1.73rem;
+	height: 2.12rem;
 }
-.L .L-bottom{
+.big-box .box2 .tu1 img{
 	width: 100%;
-	height: 2.07rem;
-	background: #FFFF00;	
+	height: 100%;
 }
-.L-top-shang{
+.big-box .box2 .text{
+	width: 8.1rem;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	align-self: center;
+}
+/* 等待付款结束 */
+/* 付款开始 */
+.low-box{
 	width: 100%;
-	height: 0.41rem;
+	height: 2.08rem;
+}
+.low-box .box-shang{
+	width: 100%;
+	height: 1.04rem;
 	display: flex;
+	justify-content: flex-end;
+	color: #515151;
+	font-size: 0.42rem;
+	line-height: 0.44rem;
 }
-.L .L-top>div span:nth-child(1){
-	color: #545454;
-	display: block;
-	font-size: 0.41rem;
+.low-box .box-shang .t1{
+	height: 0.44rem;
+	align-self: center;
+	margin-right: 0.32rem;
 }
-.L .L-top span:nth-child(2){
-	color: #ff6700;
-	font-size: 0.41rem;
+.low-box .box-shang .t2{
+	height: 0.44rem;
+	align-self: center;
+	margin-right: 0.32rem;
 }
-.L .L-top span:nth-child(3){
-	color: #959595;
-	font-size: 0.35rem;
+.low-box .box-shang .t3{
+	height: 0.44rem;
+	align-self: center;
+	margin-right: 0.32rem;
 }
+.low-box .box-xia{
+	width: 100%;
+	height: 1.04rem;
+	display: flex;
+	justify-content: flex-end;
+}
+.low-box .box-xia .quxiao{
+	width: 2.31rem;
+	height: 0.95rem;
+	border:0.02rem solid #9c9c9c;
+	border-radius: 5%;
+	font-size: 0.5rem;
+	line-height: 0.95rem;
+	text-align: center;
+	margin-right: 0.32rem;
+}
+.low-box .box-xia .fukuan{
+	width: 2.31rem;
+	height: 0.95rem;
+	border:0.02rem solid #e86a15;
+	border-radius: 5%;
+	font-size: 0.5rem;
+	line-height: 0.95rem;
+	text-align: center;
+	margin-right: 0.32rem;
+	color: #e86a15;
+}
+/* 付款结束 */
